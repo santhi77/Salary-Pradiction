@@ -24,4 +24,4 @@ if st.button("Predict Salary"):
     st.success(f"The predicted salary for {years_experience} years of experience is: ${prediction[0]:,.2f}")
    
 # Display information about the model
-st.write("The model was trained using a dataset of salaries and years of experience.built model by prakash senapati")
+st.write("The model was trained using a dataset of salaries by using Simple Linear Regression Algo.")
