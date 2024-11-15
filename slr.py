@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 import pickle
 
 # Load the dataset
-dataset = pd.read_csv(r'Salary_Data.csv')
+dataset = pd.read_csv('Salary_Data.csv')
 
 # Split the data into independent and dependent variables
 X = dataset.iloc[:, :-1].values
